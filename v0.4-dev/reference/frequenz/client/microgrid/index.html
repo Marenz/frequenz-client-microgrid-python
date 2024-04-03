@@ -3623,7 +3623,7 @@
 
 <a href="#frequenz.client.microgrid.ApiClient.__init__" class="headerlink" title="Permanent link">¤</a></h6>
 <div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="fm">__init__</span><span class="p">(</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">grpc_channel</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="grpc.aio.Channel" href="https://grpc.github.io/grpc/python/grpc_asyncio.html#grpc.aio.Channel">Channel</a></span><span class="p">,</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="nf">grpc_channel</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="grpc.aio.Channel" href="https://grpc.github.io/grpc/python/grpc_asyncio.html#grpc.aio.Channel">Channel</a></span><span class="p">,</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">target</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span><span class="p">,</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">retry_strategy</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.client.base.retry.Strategy" href="https://frequenz-floss.github.io/frequenz-client-base-python/v0.2/reference/frequenz/client/base/retry/#frequenz.client.base.retry.Strategy">Strategy</a></span> <span class="o">=</span> <span class="n">retry</span><span class="o">.</span><span class="n">LinearBackoff</span><span class="p">(),</span>
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
@@ -3761,7 +3761,7 @@ to the streaming method is lost.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.battery_data" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">battery_data</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">battery_data</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">maxsize</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="n">RECEIVER_MAX_SIZE</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.channels.Receiver" href="https://frequenz-floss.github.io/frequenz-channels-python/v1.0-pre/reference/frequenz/channels/#frequenz.channels.Receiver">Receiver</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component_data.BatteryData" href="#frequenz.client.microgrid.BatteryData">BatteryData</a></span><span class="p">]</span>
 </span></code></pre></div>
@@ -3932,7 +3932,7 @@ to the streaming method is lost.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.components" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">components</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="collections.abc.Iterable" href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Iterable">Iterable</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component.Component" href="#frequenz.client.microgrid.Component">Component</a></span><span class="p">]</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">components</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="collections.abc.Iterable" href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Iterable">Iterable</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component.Component" href="#frequenz.client.microgrid.Component">Component</a></span><span class="p">]</span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -4115,7 +4115,7 @@ when the api call exceeded timeout</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.connections" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">connections</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">connections</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">starts</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#set">set</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">ends</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#set">set</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="collections.abc.Iterable" href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Iterable">Iterable</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._connection.Connection" href="#frequenz.client.microgrid.Connection">Connection</a></span><span class="p">]</span>
@@ -4366,7 +4366,7 @@ when the api call exceeded timeout</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.ev_charger_data" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">ev_charger_data</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">ev_charger_data</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">maxsize</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="n">RECEIVER_MAX_SIZE</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.channels.Receiver" href="https://frequenz-floss.github.io/frequenz-channels-python/v1.0-pre/reference/frequenz/channels/#frequenz.channels.Receiver">Receiver</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component_data.EVChargerData" href="#frequenz.client.microgrid.EVChargerData">EVChargerData</a></span><span class="p">]</span>
 </span></code></pre></div>
@@ -4537,7 +4537,7 @@ when the api call exceeded timeout</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.inverter_data" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">inverter_data</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">inverter_data</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">maxsize</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="n">RECEIVER_MAX_SIZE</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.channels.Receiver" href="https://frequenz-floss.github.io/frequenz-channels-python/v1.0-pre/reference/frequenz/channels/#frequenz.channels.Receiver">Receiver</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component_data.InverterData" href="#frequenz.client.microgrid.InverterData">InverterData</a></span><span class="p">]</span>
 </span></code></pre></div>
@@ -4708,7 +4708,7 @@ when the api call exceeded timeout</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.metadata" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">metadata</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._metadata.Metadata" href="#frequenz.client.microgrid.Metadata">Metadata</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">metadata</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._metadata.Metadata" href="#frequenz.client.microgrid.Metadata">Metadata</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -4827,7 +4827,7 @@ location will be set to None.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.meter_data" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">meter_data</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">meter_data</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">maxsize</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="n">RECEIVER_MAX_SIZE</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.channels.Receiver" href="https://frequenz-floss.github.io/frequenz-channels-python/v1.0-pre/reference/frequenz/channels/#frequenz.channels.Receiver">Receiver</a></span><span class="p">[</span><span class="n"><a class="autorefs autorefs-internal" title="frequenz.client.microgrid._component_data.MeterData" href="#frequenz.client.microgrid.MeterData">MeterData</a></span><span class="p">]</span>
 </span></code></pre></div>
@@ -4998,7 +4998,7 @@ location will be set to None.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.set_bounds" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">set_bounds</span><span class="p">(</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">set_bounds</span><span class="p">(</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">lower</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span><span class="p">,</span> <span class="n">upper</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </span></code></pre></div>
@@ -5208,7 +5208,7 @@ or when the api call exceeded timeout</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ApiClient.set_power" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">set_power</span><span class="p">(</span><span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">power_w</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">set_power</span><span class="p">(</span><span class="n">component_id</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span><span class="p">,</span> <span class="n">power_w</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -5934,7 +5934,7 @@ in percent (%).</p>
   </span>
 
 <a href="#frequenz.client.microgrid.BatteryData.from_proto" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -6275,7 +6275,7 @@ in percent (%).</p>
 
 
 <a href="#frequenz.client.microgrid.Component.__hash__" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="fm">__hash__</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="fm">__hash__</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nf"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -6338,7 +6338,7 @@ in percent (%).</p>
 
 
 <a href="#frequenz.client.microgrid.Component.is_valid" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">is_valid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">is_valid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -6869,7 +6869,7 @@ in percent (%).</p>
   </span>
 
 <a href="#frequenz.client.microgrid.ComponentData.from_proto" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -8041,7 +8041,7 @@ in percent (%).</p>
 
 
 <a href="#frequenz.client.microgrid.Connection.is_valid" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">is_valid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">is_valid</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -8372,7 +8372,7 @@ otherwise.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.EVChargerCableState.from_pb" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_pb</span><span class="p">(</span><span class="n">evc_state</span><span class="p">:</span> <span class="n"><span title="frequenz.api.microgrid.ev_charger_pb2.CableState.ValueType">ValueType</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_pb</span><span class="p">(</span><span class="n">evc_state</span><span class="p">:</span> <span class="n"><span title="frequenz.api.microgrid.ev_charger_pb2.CableState.ValueType">ValueType</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -8829,7 +8829,7 @@ otherwise.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.EVChargerComponentState.from_pb" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_pb</span><span class="p">(</span><span class="n">evc_state</span><span class="p">:</span> <span class="n"><span title="frequenz.api.microgrid.ev_charger_pb2.ComponentState.ValueType">ValueType</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_pb</span><span class="p">(</span><span class="n">evc_state</span><span class="p">:</span> <span class="n"><span title="frequenz.api.microgrid.ev_charger_pb2.ComponentState.ValueType">ValueType</span></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -9734,7 +9734,7 @@ wire for phase/line 1,2 and 3 respectively.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.EVChargerData.from_proto" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -9906,7 +9906,7 @@ wire for phase/line 1,2 and 3 respectively.</p>
 
 
 <a href="#frequenz.client.microgrid.EVChargerData.is_ev_connected" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">is_ev_connected</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">is_ev_connected</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#bool">bool</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -10868,7 +10868,7 @@ phase/line 1, 2 and 3 respectively.</p>
   </span>
 
 <a href="#frequenz.client.microgrid.InverterData.from_proto" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -11382,7 +11382,7 @@ coordinates. This lookup could fail, in which case the timezone will still be
 
 
 <a href="#frequenz.client.microgrid.Location.__post_init__" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">__post_init__</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">__post_init__</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
@@ -12030,7 +12030,7 @@ coordinates. This lookup could fail, in which case the timezone will still be
   </span>
 
 <a href="#frequenz.client.microgrid.MeterData.from_proto" class="headerlink" title="Permanent link">¤</a></h6>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nf">from_proto</span><span class="p">(</span><span class="n">raw</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="frequenz.api.microgrid.microgrid_pb2.ComponentData" href="https://frequenz-floss.github.io/frequenz-api-microgrid/v0.15/python-reference/frequenz/api/microgrid/microgrid_pb2/#frequenz.api.microgrid.microgrid_pb2.ComponentData">ComponentData</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Self" href="https://docs.python.org/3/library/typing.html#typing.Self">Self</a></span>
 </span></code></pre></div>
 
   <div class="doc doc-contents ">
